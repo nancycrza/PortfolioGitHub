@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Zombie Survival Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         HEADER
+    =========================================== -->
+
+    <header>
+
+        <div class="logo">
+            🧟 ZOMBIE
+            <span>SURVIVAL QUIZ</span>
+        </div>
+
+        <div class="header-question">
+            ☣ HOW WOULD YOU SURVIVE?
+        </div>
+
+        <div class="skull">
+            ☠
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         HERO / QUIZ
+    =========================================== -->
+
+    <main>
+
+        <section class="quiz-section">
+
+            <div class="hero-message">
+
+                <p class="eyebrow">
+                    ZOMBIE APOCALYPSE:
+                </p>
+
+                <h1>
+                    HOW WOULD YOU
+                    <span>SURVIVE?</span>
+                </h1>
+
+                <p>
+                    Answer a few questions and discover
+                    your zombie apocalypse role!
+                </p>
+
+            </div>
+
+
+            <!-- QUIZ CARD -->
+
+            <div class="quiz-card">
+
+                <div class="question-number"
+                    id="questionNumber">
+                    1 / 6
+                </div>
+
+                <h2 id="question">
+                    What's your most useful skill?
+                </h2>
+
+                <div id="answers"
+                    class="answers">
+                </div>
+
+                <div class="quiz-progress">
+
+                    <div id="quizProgress"
+                        class="quiz-progress-fill">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             RESULT SECTION
+        =========================================== -->
+
+        <section id="resultSection"
+            class="result-section hidden">
+
+            <div class="result-title">
+                YOUR SURVIVAL ROLE
+            </div>
+
+
+            <div class="result-card">
+
+                <div class="result-image">
+
+                    <div class="survivor-icon">
+                        🧟
+                    </div>
+
+                    <div class="image-caption">
+                        SURVIVOR
+                    </div>
+
+                </div>
+
+
+                <div class="result-content">
+
+                    <p class="result-label">
+                        YOU ARE
+                    </p>
+
+                    <h2 id="resultTitle">
+                        THE SCOUT
+                    </h2>
+
+                    <p id="resultDescription"
+                        class="result-description">
+                    </p>
+
+
+                    <h3>
+                        YOUR STRENGTHS
+                    </h3>
+
+                    <div id="strengths"
+                        class="strengths">
+                    </div>
+
+                </div>
+
+
+                <!-- SURVIVAL STATS -->
+
+                <div class="stats">
+
+                    <h3>
+                        SURVIVAL STATS
+                    </h3>
+
+                    <div class="stat">
+                        <span>Combat</span>
+                        <div class="skulls"
+                            id="combat">
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span>Crafting</span>
+                        <div class="skulls"
+                            id="crafting">
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span>Leadership</span>
+                        <div class="skulls"
+                            id="leadership">
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span>Stealth</span>
+                        <div class="skulls"
+                            id="stealth">
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span>Survival</span>
+                        <div class="skulls"
+                            id="survival">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SURVIVAL TIP -->
+
+            <div class="survival-tip">
+
+                <div class="warning">
+                    ⚠
+                </div>
+
+                <div>
+
+                    <h3>
+                        YOUR SURVIVAL TIP
+                    </h3>
+
+                    <p id="survivalTip">
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- RESULT BUTTONS -->
+
+            <div class="result-buttons">
+
+                <button id="restartButton">
+                    ↻ TAKE QUIZ AGAIN
+                </button>
+
+                <button id="shareButton">
+                    ↗ SHARE YOUR RESULT
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <p>
+            ☣ Remember: In a zombie apocalypse,
+            it's not just about surviving...
+            it's about <span>outlasting.</span>
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
